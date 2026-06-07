@@ -129,7 +129,7 @@ jobs:
         run: |
           call "C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\Tools\VsDevCmd.bat"
           conan profile detect --force
-          conan install . --output-folder=build --build=missing -s build_type=${{ matrix.config }} -s arch=x86_64
+          conan install . --output-folder=build --build=missing --build=spdlog -s build_type=${{ matrix.config }} -s arch=x86_64
 
       # 7. Build the solution (matrix handles Debug/Release)
       - name: Build project (${{ matrix.config }}, x64, C++latest)
