@@ -1,0 +1,6 @@
+---
+# clang-format configuration for C++23 project
+# Based on Google C++ Style Guide with modern C++ adaptations
+# Compatible with LLVM 20.1.8
+
+DisableFormat: true

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="CempAgent/CempAgent.vcxproj" Id="067b76a5-9564-4686-a42c-eb208dacb60e" />
+  <Project Path="RegistryRiskMiner/RegistryRiskMiner.vcxproj" Id="e69b80f1-1749-4365-82f2-485c55da9408" />
+</Solution>
